@@ -1,0 +1,11 @@
+config.php   配置文件  APPID APPKEY 在此修改
+codepay.php  核心文件 里面有注释文字 可以打开看下
+alipayh5.php 支付宝H5跳转文件
+callback.php 异步通知地址文件
+orderajax.php 订单状态实时查询文件，建议做本地订单状态查询 具体方法里面有注释
+
+演示入口 
+index.php  传递data 选择金额界面演示
+test.php   不传递任何参数 可直接测试
+wap.php    手机界面 传递data money 选择付款演示
+yunpay.php  PC界面 传递data money 选择付款演示
